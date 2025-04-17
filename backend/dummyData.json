@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "region": "North",
+      "skills": ["negotiation", "CRM", "communication"],
+      "deals": [
+        {
+          "deal_id": "D001",
+          "client": {
+            "name": "Acme Corp",
+            "industry": "Manufacturing"
+          },
+          "status": "closed",
+          "value": 50000
+        },
+        {
+          "deal_id": "D002",
+          "client": {
+            "name": "Beta LLC",
+            "industry": "Technology"
+          },
+          "status": "in progress",
+          "value": 30000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "region": "South",
+      "skills": ["cold calling", "presentation", "product knowledge"],
+      "deals": [
+        {
+          "deal_id": "D003",
+          "client": {
+            "name": "Gamma Ltd",
+            "industry": "Healthcare"
+          },
+          "status": "closed",
+          "value": 75000
+        }
+      ]
+    }
+  ]
+  
